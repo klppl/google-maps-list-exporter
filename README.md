@@ -1,5 +1,7 @@
 # export-places-google-maps
 
+[![License: Lagom](https://img.shields.io/badge/license-lagom-9E2B25)](https://klppl.github.io/lagom-license/)
+
 Extract every place from a public Google Maps shared list into a JSON file.
 
 Google Maps has no public API for shared lists, so this drives a real Chrome browser via [Playwright](https://playwright.dev/python/), opens the list, scrolls until every card is loaded, then visits each place to read its exact coordinates from the URL.
